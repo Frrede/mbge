@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mbge-backend
+  liquibase:
+    change-log: 'classpath:/db/changelog-master.xml'
+    default-schema: public
+    liquibase-schema: public
+
+gamble:
+  minValue: -1000
+  maxValue: 1000
